@@ -57,9 +57,6 @@ http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/Trimmomatic-0.39.
        done 
        multiqc  trimmed_reads/Fastqc_results  -o trimmed_reads/Fastqc_results
 
-
-.......................
-
 ### Mapping
 The sample sequences were mapped against the reference genome using bwa-mem and the output are in the sam (Single Alignment Map) format.
 
@@ -142,7 +139,7 @@ To view the output of the results use :
  http://varscan.sourceforge.net/somatic-calling.html
  
 #### Installation 
-wget https://sourceforge.net/projects/varscan/files/VarScan.v2.3.9.jar
+	wget https://sourceforge.net/projects/varscan/files/VarScan.v2.3.9.jar
 
 #### Command
 #### Convert data to pileup
@@ -163,11 +160,11 @@ wget https://sourceforge.net/projects/varscan/files/VarScan.v2.3.9.jar
 ### Zip, index and merge vcf
 varscan generates two files (snp.vcf and indel.vcf). Each file is zipped and the two zipped files were merged with bcftools
 
-bgzip Variants/SLGFSK.snp.vcf > Variants/SLGFSK.snp.vcf.gz
-bgzip Variants/SLGFSK.indel.vcf > Variants/SLGFSK.indel.vcf.gz
-tabix Variants/SLGFSK.snp.vcf.gz
-tabix Variants/SLGFSK.indel.vcf.gz
-bcftools merge SLGFSK.snp.vcf.gz SLGFSK.indel.vcf.gz > merged.vcf
+	bgzip Variants/SLGFSK.snp.vcf > Variants/SLGFSK.snp.vcf.gz
+	bgzip Variants/SLGFSK.indel.vcf > Variants/SLGFSK.indel.vcf.gz
+	tabix Variants/SLGFSK.snp.vcf.gz
+	tabix Variants/SLGFSK.indel.vcf.gz
+	bcftools merge SLGFSK.snp.vcf.gz SLGFSK.indel.vcf.gz > merged.vcf
 
 ## Variant Annotation
 ### Functional Annotation using SnpEff
