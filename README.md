@@ -67,7 +67,7 @@ The sample sequences were mapped against the reference genome using bwa-mem and 
        conda install -c bioconda bamtools
 
 #### Command
-##### First, the reference genome was indexed followed by the alignment of the sample sequences 
+#### First, the reference genome was indexed followed by the alignment of the sample sequences 
 
        mkdir Mapping
        
