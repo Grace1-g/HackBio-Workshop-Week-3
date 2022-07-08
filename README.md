@@ -32,9 +32,9 @@
        
 #### Trimmomatic adapter sequence was downloaded from here
 
-http://www.usadellab.org/cms/?page=trimmomatic
+	http://www.usadellab.org/cms/?page=trimmomatic
 
-http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/Trimmomatic-0.39.zip
+	http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/Trimmomatic-0.39.zip
 
 #### Installation
 
