@@ -1,6 +1,6 @@
-# The week's task was to reproduce a project on Somatic and Germline variant Identification from Tumor and normal Sample Pairs
+# Somatic and Germline variant Identification from Tumor and normal Sample Pairs (Reproduced)
 
-### First, the datasets to be used were downloaded from Zenodo
+### The datasets to be used were downloaded from Zenodo
 
 #### Command
 
@@ -28,7 +28,7 @@
 
 #### Trimmomatic was downloaded from here
 
-       http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/Trimmomatic-0.39.zip
+http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/Trimmomatic-0.39.zip
 
 #### Command
 
