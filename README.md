@@ -46,5 +46,6 @@ do
 
         fastqc  trimmed_reads/${sample}_r1_paired.fq.gz  trimmed_reads/${sample}_r2_paired.fq.gz \
                  -o trimmed_reads/Fastqc_results
+                 
 done 
 
